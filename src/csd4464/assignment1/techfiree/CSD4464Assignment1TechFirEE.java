@@ -18,10 +18,10 @@ public class CSD4464Assignment1TechFirEE {
         // TODO code application logic here
         
     }
-    public static String stringPower(String str,int i)
+    public static String stringPower(String sample,int i)
     {
     
-     return str;
+     return sample;
     }
     
 }
