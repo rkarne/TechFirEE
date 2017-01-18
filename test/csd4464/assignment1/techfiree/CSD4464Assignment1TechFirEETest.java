@@ -71,5 +71,28 @@ public class CSD4464Assignment1TechFirEETest {
         assertEquals(expResult, result);
         fail("Failed the test unable to return empty string");
    }
-    
+     public void testLessThanOneShouldReturnNull()
+     {
+     
+        String sample = null;
+        int i = 0;
+        String result = CSD4464Assignment1TechFirEE.stringPower(sample, i);
+        String expResult = null;
+        assertEquals(expResult, result);
+        fail("Failed the test unable to return null string");
+     
+     }
+     public void testStringAndOneShouldReturnString()
+     {
+        String sample = "heloo!";
+        int i = 1;
+        String result = CSD4464Assignment1TechFirEE.stringPower(sample, i);
+        String expResult = sample;
+        assertEquals(expResult, result);
+        fail("Failed the test unable to return Expected string");
+     
+     
+     
+     
+     }
 }
