@@ -26,11 +26,11 @@ public class CSD4464Assignment1TechFirEE {
          return sample;
         }
         else{
-            String str = "";
+            String simpleString = "";
             for(int j=0;j<i;j++){
-                str = str+sample;
+                simpleString = simpleString+sample;
             }
-            return str;
+            return simpleString;
         }
      
     }
