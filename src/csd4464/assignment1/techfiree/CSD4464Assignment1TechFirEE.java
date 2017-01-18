@@ -20,7 +20,7 @@ public class CSD4464Assignment1TechFirEE {
     }
     public static String stringPower(String sample,int i)
     {
-    
+     
      return sample;
     }
     
