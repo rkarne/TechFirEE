@@ -84,7 +84,7 @@ public class CSD4464Assignment1TechFirEETest {
      }
      public void testStringAndOneShouldReturnString()
      {
-        String sample = "heloo!";
+        String sample = "Heloo! World";
         int i = 1;
         String result = CSD4464Assignment1TechFirEE.stringPower(sample, i);
         String expResult = sample;
