@@ -47,6 +47,7 @@ public class CSD4464Assignment1TechFirEETest {
         CSD4464Assignment1TechFirEE.main(args);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
+       
     }
 
     /**
@@ -60,28 +61,30 @@ public class CSD4464Assignment1TechFirEETest {
         String expResult = "";
         String result = CSD4464Assignment1TechFirEE.stringPower(sample, i);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
+      
     }
+    
+    @Test
    public void testEmptyStringShouldReturnEmptyString(){
         String sample = "";
         int i = 0;
         String result = CSD4464Assignment1TechFirEE.stringPower(sample, i);
         String expResult = "";
         assertEquals(expResult, result);
-        fail("Failed the test unable to return empty string");
+       
    }
+   @Test
      public void testLessThanOneShouldReturnNull()
      {
-     
         String sample = null;
         int i = 0;
         String result = CSD4464Assignment1TechFirEE.stringPower(sample, i);
         String expResult = null;
         assertEquals(expResult, result);
-        fail("Failed the test unable to return null string");
-     
+       
      }
+     @Test
      public void testStringAndOneShouldReturnString()
      {
         String sample = "Heloo! World";
@@ -89,15 +92,16 @@ public class CSD4464Assignment1TechFirEETest {
         String result = CSD4464Assignment1TechFirEE.stringPower(sample, i);
         String expResult = "Heloo! World";
         assertEquals(expResult, result);
-        fail("Failed the test unable to return Expected string");
+       
      
      }
+     @Test
      public void testStringAndTwoShouldReturnStringDoubled(){
         String sample = "Hello";
         int i = 1;
         String result = CSD4464Assignment1TechFirEE.stringPower(sample, i);
         String expResult = "HelloHello";
         assertEquals(expResult, result);
-        fail("Failed the test unable to return Expected string");
+       
      }
 }
