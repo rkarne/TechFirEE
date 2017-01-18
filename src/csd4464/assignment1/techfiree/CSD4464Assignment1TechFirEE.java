@@ -17,6 +17,7 @@ public class CSD4464Assignment1TechFirEE {
     public static void main(String[] args) {
         // TODO code application logic here
         stringPower("",1);
+        stringPower(null,0);
     }
     public static String stringPower(String sample,int i)
     {
