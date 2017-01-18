@@ -87,12 +87,17 @@ public class CSD4464Assignment1TechFirEETest {
         String sample = "Heloo! World";
         int i = 1;
         String result = CSD4464Assignment1TechFirEE.stringPower(sample, i);
-        String expResult = sample;
+        String expResult = "Heloo! World";
         assertEquals(expResult, result);
         fail("Failed the test unable to return Expected string");
      
-     
-     
-     
+     }
+     public void testStringAndTwoShouldReturnStringDoubled(){
+        String sample = "Hello";
+        int i = 1;
+        String result = CSD4464Assignment1TechFirEE.stringPower(sample, i);
+        String expResult = "HelloHello";
+        assertEquals(expResult, result);
+        fail("Failed the test unable to return Expected string");
      }
 }
