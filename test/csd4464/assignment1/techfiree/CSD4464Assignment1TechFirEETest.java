@@ -96,7 +96,7 @@ public class CSD4464Assignment1TechFirEETest {
      @Test
      public void testStringAndTwoShouldReturnStringDoubled(){
         String sample = "Hello";
-        int i = 1;
+        int i = 2;
         String result = CSD4464Assignment1TechFirEE.stringPower(sample, i);
         String expResult = "HelloHello";
         assertEquals(expResult, result);

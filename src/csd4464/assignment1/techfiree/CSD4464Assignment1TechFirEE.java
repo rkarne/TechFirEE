@@ -18,12 +18,21 @@ public class CSD4464Assignment1TechFirEE {
         // TODO code application logic here
         stringPower("",1);
         stringPower(null,0);
-         stringPower("Hell00",1);
+        stringPower("Hell00",1);
     }
     public static String stringPower(String sample,int i)
-    {
+    {  
+        if(sample == null || sample==""){
+         return sample;
+        }
+        else{
+            String str = "";
+            for(int j=0;j<i;j++){
+                str = str+sample;
+            }
+            return str;
+        }
      
-     return sample;
     }
     
 }
